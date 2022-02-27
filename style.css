@@ -118,6 +118,7 @@ section p{
 
 footer{/* 
     background-color:yellowgreen; */
+    margin-top: 3.5%;
 }
 
 footer .contenedor-p{
@@ -134,13 +135,22 @@ footer .contenedor-p{
     display: flex;
     background-color: rgba(171, 171, 171, 0.1);
     padding: 15px;
+    font-size: 1.3rem;
+    color: gray;
+    border: 1px solid rgba(171, 171, 171, 0.3);
+}
+
+.contenedor-footer-2{
+    min-width: 45rem;
 }
 
 .contenedor-footer-2 ul, .contenedor-footer-3 ul{
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 
 .contenedor-footer-3{
-    
+    margin-left: 48%;
+    min-width: 30rem;
 }
