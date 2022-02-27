@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{/* 
+    background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 6rem;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.menu .menu-navegador{
+    display: flex;
+    list-style: none;
+}
+
+.menu-navegador li{
+    display: flex;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu .menu-navegador .opciones{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.menu .menu-navegador .perfil{
+    border-radius: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.menu-navegador .gmail:hover, .menu-navegador .imagenes:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu-navegador .opciones:hover, .menu-navegador .perfil:hover{
+    box-shadow: 0px 0px 17px 0px rgba(148,140,148,1);
+    cursor: pointer;
+}
+
+section{/* 
+    background-color:aquamarine; */
+    display: flex;
+    flex-direction: column;
+    height: 55rem;
+}
+
+.logo{
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.contenedor-logo{
+    margin-top: 100px;
+    display: flex; 
+}
+
+form{
+    margin: 0 auto;
+    margin-top: -20px;
+    /*background-color: blue; */
+    width: 40%;
+    height: 150px;
+}
+
+input{
+    border: 0.5px rgba(171, 171, 171, 0.2) solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.98);
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+label .contenedor-botones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{    
+    width: 15rem;
+    padding: 10px;
+    background-color: rgba(171, 171, 171, 0.1);
+    border: 0.5px white solid;
+    border-radius: 4px;
+}
+
+button:hover{
+    border: 1px solid rgba(171, 171, 171, 0.2);
+    cursor: pointer;
+}
+
+section p{
+    margin-top: -30px;
+    text-align: center;
+}
+
+footer{/* 
+    background-color:yellowgreen; */
+}
+
+footer .contenedor-p{
+    background-color: rgba(171, 171, 171, 0.1);
+    padding: 15px;
+}
+
+.contenedor-p p{
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.contenedor-footer-1{
+    display: flex;
+}
